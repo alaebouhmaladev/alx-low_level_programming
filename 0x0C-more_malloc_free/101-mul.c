@@ -7,7 +7,8 @@
 /**
  * is_digit - checks if a string contains a non-digit char
  * @s: string to be evaluated
- * Return: 0 or 1 
+ *
+ * Return: 0 if a non-digit is found, 1 otherwise
  */
 int is_digit(char *s)
 {
@@ -25,7 +26,8 @@ int is_digit(char *s)
 /**
  * _strlen - returns the length of a string
  * @s: string to evaluate
- * Return: len of string
+ *
+ * Return: the length of the string
  */
 int _strlen(char *s)
 {
@@ -39,7 +41,7 @@ int _strlen(char *s)
 }
 
 /**
- * handles errors for main
+ * errors - handles errors for main
  */
 void errors(void)
 {
@@ -52,7 +54,7 @@ void errors(void)
  * @argc: number of arguments
  * @argv: array of arguments
  *
- * Return: 0
+ * Return: always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
